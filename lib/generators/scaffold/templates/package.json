@@ -1,0 +1,53 @@
+{
+  "name": "<%= name %>",
+  "version": "0.1.0",
+  "keywords": [],
+  "description": "<%= description %>",
+  "bin": {
+    "<%= name %>": "cli.js"
+  },
+  "engines": {
+    "node": "^10.0.0"
+  },
+  "files<%= %>": [
+    "lib",
+    "cli.js",
+    "index.js"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint --quiet --ext .js .",
+    "lint:fix": "eslint --fix --ext .js ."
+  },
+  "authors": "<%= author %>",
+  "repository": "<%= repo %>",
+  "homepage": "",
+  "license": "MIT",
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "clipboardy": "^1.2.3",
+    "debug": "^3.1.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^8.0.1",
+    "glob": "^7.1.4",
+    "inquirer": "^6.2.1",
+    "mkdirp": "^0.5.1",
+    "semver": "^6.1.0",
+    "sylvanas": "~0.0.3",
+    "yargs-parser": "^11.0.0",
+    "yeoman-generator": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^8.2.1"
+  }
+}
