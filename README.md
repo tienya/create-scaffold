@@ -11,7 +11,7 @@
 `$projectName`指项目目录，如果已经在项目根目录，可以留空
 
 ```bash
-npm init scaffolding $projectName
+npm init @hillgor/scaffold $projectName
 cd $projectName
 npm i
 ```

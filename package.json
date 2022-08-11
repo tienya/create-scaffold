@@ -1,5 +1,5 @@
 {
-  "name": "create-scaffolding",
+  "name": "@hillgor/create-scaffold",
   "version": "0.4.1",
   "description": "一个构建脚手架的脚手架",
   "bin": {
@@ -24,8 +24,8 @@
       "git add"
     ]
   },
-  "author": "hillgorwang",
-  "repository": "https://git.woa.com/CSIG_Tsec_P2_MSPC/anxin/create-scaffold.git",
+  "author": "hillgor",
+  "repository": "https://github.com/tienya/create-scaffold",
   "homepage": "",
   "license": "MIT",
   "dependencies": {
