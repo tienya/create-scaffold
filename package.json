@@ -16,7 +16,8 @@
   "scripts": {
     "prepare": "husky install",
     "lint": "eslint --quiet --ext .js .",
-    "lint:fix": "eslint --fix --ext .js ."
+    "lint:fix": "eslint --fix --ext .js .",
+    "publish": "npm publish --access public"
   },
   "lint-staged": {
     "*.js": [
