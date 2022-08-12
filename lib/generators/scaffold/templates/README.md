@@ -42,7 +42,7 @@ git init
 ],
 ```
 
-### 发布到 tnpm
+### 发布到 npm
 
 ```bash
 npm publish
